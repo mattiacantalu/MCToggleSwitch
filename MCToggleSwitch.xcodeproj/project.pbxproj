@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		622467851F791DEF00A27092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622467841F791DEF00A27092 /* AppDelegate.swift */; };
+		622467871F791DEF00A27092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622467861F791DEF00A27092 /* ViewController.swift */; };
+		6224678A1F791DEF00A27092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622467881F791DEF00A27092 /* Main.storyboard */; };
+		6224678C1F791DEF00A27092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6224678B1F791DEF00A27092 /* Assets.xcassets */; };
+		6224678F1F791DEF00A27092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6224678D1F791DEF00A27092 /* LaunchScreen.storyboard */; };
+		6224679B1F791E0A00A27092 /* MCToggleSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 622467991F791E0A00A27092 /* MCToggleSwitch.m */; };
+		6224679C1F791E0A00A27092 /* MCToggleSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6224679A1F791E0A00A27092 /* MCToggleSwitch.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		622467811F791DEF00A27092 /* MCToggleSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCToggleSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		622467841F791DEF00A27092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		622467861F791DEF00A27092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		622467891F791DEF00A27092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6224678B1F791DEF00A27092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6224678E1F791DEF00A27092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		622467901F791DEF00A27092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622467971F791E0900A27092 /* MCToggleSwitch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCToggleSwitch-Bridging-Header.h"; sourceTree = "<group>"; };
+		622467981F791E0A00A27092 /* MCToggleSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCToggleSwitch.h; sourceTree = "<group>"; };
+		622467991F791E0A00A27092 /* MCToggleSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCToggleSwitch.m; sourceTree = "<group>"; };
+		6224679A1F791E0A00A27092 /* MCToggleSwitch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCToggleSwitch.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6224677E1F791DEF00A27092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		622467781F791DEF00A27092 = {
+			isa = PBXGroup;
+			children = (
+				622467831F791DEF00A27092 /* MCToggleSwitch */,
+				622467821F791DEF00A27092 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		622467821F791DEF00A27092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				622467811F791DEF00A27092 /* MCToggleSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		622467831F791DEF00A27092 /* MCToggleSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				622467961F791DF800A27092 /* ToggleSwitch */,
+				622467841F791DEF00A27092 /* AppDelegate.swift */,
+				622467861F791DEF00A27092 /* ViewController.swift */,
+				622467881F791DEF00A27092 /* Main.storyboard */,
+				6224678D1F791DEF00A27092 /* LaunchScreen.storyboard */,
+				62767AF51F79207C00688784 /* Resources */,
+			);
+			path = MCToggleSwitch;
+			sourceTree = "<group>";
+		};
+		622467961F791DF800A27092 /* ToggleSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				622467981F791E0A00A27092 /* MCToggleSwitch.h */,
+				622467991F791E0A00A27092 /* MCToggleSwitch.m */,
+				6224679A1F791E0A00A27092 /* MCToggleSwitch.xib */,
+			);
+			name = ToggleSwitch;
+			sourceTree = "<group>";
+		};
+		62767AF51F79207C00688784 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6224678B1F791DEF00A27092 /* Assets.xcassets */,
+				622467901F791DEF00A27092 /* Info.plist */,
+				622467971F791E0900A27092 /* MCToggleSwitch-Bridging-Header.h */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		622467801F791DEF00A27092 /* MCToggleSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622467931F791DEF00A27092 /* Build configuration list for PBXNativeTarget "MCToggleSwitch" */;
+			buildPhases = (
+				6224677D1F791DEF00A27092 /* Sources */,
+				6224677E1F791DEF00A27092 /* Frameworks */,
+				6224677F1F791DEF00A27092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCToggleSwitch;
+			productName = MCToggleSwitch;
+			productReference = 622467811F791DEF00A27092 /* MCToggleSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		622467791F791DEF00A27092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mattia Cantalù";
+				TargetAttributes = {
+					622467801F791DEF00A27092 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TVE3XYL8J6;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6224677C1F791DEF00A27092 /* Build configuration list for PBXProject "MCToggleSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 622467781F791DEF00A27092;
+			productRefGroup = 622467821F791DEF00A27092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				622467801F791DEF00A27092 /* MCToggleSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6224677F1F791DEF00A27092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6224678F1F791DEF00A27092 /* LaunchScreen.storyboard in Resources */,
+				6224679C1F791E0A00A27092 /* MCToggleSwitch.xib in Resources */,
+				6224678C1F791DEF00A27092 /* Assets.xcassets in Resources */,
+				6224678A1F791DEF00A27092 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6224677D1F791DEF00A27092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6224679B1F791E0A00A27092 /* MCToggleSwitch.m in Sources */,
+				622467871F791DEF00A27092 /* ViewController.swift in Sources */,
+				622467851F791DEF00A27092 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		622467881F791DEF00A27092 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				622467891F791DEF00A27092 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6224678D1F791DEF00A27092 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6224678E1F791DEF00A27092 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		622467911F791DEF00A27092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		622467921F791DEF00A27092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		622467941F791DEF00A27092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = TVE3XYL8J6;
+				INFOPLIST_FILE = MCToggleSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattiacantalu.MCToggleSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MCToggleSwitch/MCToggleSwitch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		622467951F791DEF00A27092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = TVE3XYL8J6;
+				INFOPLIST_FILE = MCToggleSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattiacantalu.MCToggleSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MCToggleSwitch/MCToggleSwitch-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6224677C1F791DEF00A27092 /* Build configuration list for PBXProject "MCToggleSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622467911F791DEF00A27092 /* Debug */,
+				622467921F791DEF00A27092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622467931F791DEF00A27092 /* Build configuration list for PBXNativeTarget "MCToggleSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622467941F791DEF00A27092 /* Debug */,
+				622467951F791DEF00A27092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 622467791F791DEF00A27092 /* Project object */;
+}
